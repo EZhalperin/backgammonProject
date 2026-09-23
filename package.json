@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/EZhalperin/backgammonProject#readme",
   "dependencies": {
+    "chance": "^1.1.13",
     "express": "^5.2.1",
     "socket.io": "^4.8.3",
     "socket.io-client": "^4.8.3"
