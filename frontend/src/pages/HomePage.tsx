@@ -1,6 +1,12 @@
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+import { socket } from "../context/socket";
 
 const HomePage = () => {
+  useEffect(() => {
+    socket.on("connect", () => {});
+  }, []);
+
   const navigate = useNavigate();
   return (
     <>
